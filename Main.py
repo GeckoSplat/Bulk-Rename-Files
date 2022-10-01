@@ -6,7 +6,7 @@ from tkinter.filedialog import askdirectory
 
 Tk().withdraw()
 
-path = askdirectory (title = 'Please select a files to Bulk Rename')
+path = askdirectory (title = 'Please select a Folder to Bulk Rename Files')
 walker2 = os.walk(path)
  
 user_input = simpledialog.askstring(title ='Enter Name for Files', prompt ='Files will be named:')
