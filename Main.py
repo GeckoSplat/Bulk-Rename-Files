@@ -24,11 +24,12 @@ def OK_button_setup(tk):
     print('OK pressed')
     Button(text = "OK")
     rename()
+    print('Files Renamed, Operation Complete')
     exit()
     
 
 def Cancel_button_setup(tk): 
-    print ('Cancel pressed')   
+    print ('Cancel pressed, program closed')   
     Button (text = "CANCEL")
     exit()
 
@@ -47,5 +48,4 @@ B1.pack(fill=X, padx=10)
 B1.bind("<Button->", OK_button_setup)
 B2.pack(fill=X, padx=10)
 B2.bind("<Button->", Cancel_button_setup)
-top.mainloop()
-    
+top.mainloop()   

@@ -19,7 +19,7 @@ Select the directory you wish to run in, in the pop up window.  Click OK.
 
 Enter your desired filename in the next window. Click OK.
 
-Files will be renamed within the chosen directory.
+Files will be renamed as you specified within the chosen directory.
 
 
 
